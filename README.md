@@ -12,19 +12,18 @@ go get -tool github.com/goreleaser/goreleaser/v2@latest
 
 ````sh
 go tool golangci-lint run
-```
+
 
 # run release
-````
-
 ```sh
 go tool goreleaser --snapshot --clean
 ```
+# tidy imports
 ```sh 
 go tool goimports -l -w .
 ```
-
 ````
+
 ## Included
 
 ```azure
@@ -32,7 +31,7 @@ go tool goimports -l -w .
 	- [bubbletea][]
 	- [bubbles][]
 	- [lipgloss][]
-````
+```
 
 - github actions workflows for build, test, lint and release
 - [GoReleaser][goreleaser] configs

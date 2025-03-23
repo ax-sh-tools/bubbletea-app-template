@@ -9,7 +9,8 @@ go get -tool github.com/golangci/golangci-lint/cmd/golangci-lint
 # run lint
 
 ````sh
-go tool golangci-lint```
+go tool golangci-lint
+```
 
 # run release
 ````

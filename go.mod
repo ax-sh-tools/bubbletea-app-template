@@ -1,6 +1,6 @@
 module github.com/charmbracelet/bubbletea-app-template
 
-go 1.19
+go 1.24
 
 require (
 	github.com/charmbracelet/bubbles v0.20.0

@@ -21,7 +21,7 @@ go tool golangci-lint run
 go tool goreleaser --snapshot --clean
 ```
 ```sh 
-go tool goimports
+go tool goimports -l -w .
 ```
 
 ````

@@ -4,18 +4,25 @@ A template repository to create `[Bubbletea][bubbletea]` apps. using golang 1.24
 
 ```sh
 go get -tool github.com/golangci/golangci-lint/cmd/golangci-lint
+go get -tool golang.org/x/tools/cmd/goimports@latest
+go get -tool github.com/goreleaser/goreleaser/v2@latest
 ```
 
 # run lint
 
 ````sh
-go tool golangci-lint
+go tool golangci-lint run
 ```
 
 # run release
 ````
 
+```sh
 go tool goreleaser --snapshot --clean
+```
+```sh 
+go tool goimports
+```
 
 ````
 ## Included

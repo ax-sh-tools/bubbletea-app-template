@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/charmbracelet/bubbles/stopwatch"
+
 	"os"
 	"time"
+
+	"github.com/charmbracelet/bubbles/stopwatch"
 
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/spinner"
